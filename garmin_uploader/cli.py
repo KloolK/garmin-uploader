@@ -55,8 +55,8 @@ def main():
         type=int,
         default=2,
         choices=[1, 2, 3, 4, 5],
-        help='Verbose - select level of verbosity. 1=DEBUG(most verbose),'
-             ' 2=INFO, 3=WARNING, 4=ERROR, 5= CRITICAL(least verbose).'
+        help='Verbose - select level of verbosity. 1=DEBUG (most verbose),'
+             ' 2=INFO, 3=WARNING, 4=ERROR, 5=CRITICAL (least verbose).'
              ' [default=2]')
 
     # Run workflow with these options
